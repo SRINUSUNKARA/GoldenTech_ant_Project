@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="4" hostname="GOLDEN_TECHNOLOGIES" name="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" skipped="0" tests="10" time="0.073" timestamp="2017-05-10T23:47:14">
+<testsuite errors="0" failures="0" hostname="GOLDEN_TECHNOLOGIES" name="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" skipped="0" tests="10" time="0.1" timestamp="2017-05-11T21:37:13">
   <properties>
     <property name="ant.project.invoked-targets" value="windows" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
@@ -18,10 +18,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="sun.os.patch.level" value="" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-    <property name="user.dir" value="C:\Users\welcome\Desktop\sampleproject" />
+    <property name="user.dir" value="C:\Users\welcome\Desktop\Goldentech_ant_project\GoldenTech_ant_Project" />
     <property name="java.runtime.version" value="1.8.0_121-b13" />
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
-    <property name="basedir" value="C:\Users\welcome\Desktop\sampleproject" />
+    <property name="basedir" value="C:\Users\welcome\Desktop\Goldentech_ant_project\GoldenTech_ant_Project" />
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed" />
     <property name="os.arch" value="amd64" />
     <property name="ant.project.default-target" value="first" />
@@ -31,17 +31,17 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
     <property name="user.variant" value="" />
     <property name="os.name" value="Windows 10" />
-    <property name="ant.file.connectfour" value="C:\Users\welcome\Desktop\sampleproject\build.xml" />
+    <property name="ant.file.connectfour" value="C:\Users\welcome\Desktop\Goldentech_ant_project\GoldenTech_ant_Project\build.xml" />
     <property name="ant.home" value="C:\Users\welcome\Downloads\ant\apache-ant-1.10.1" />
     <property name="ant.project.name" value="connectfour" />
     <property name="sun.jnu.encoding" value="Cp1252" />
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Users\welcome\Downloads\ant\apache-ant-1.10.1/bin;C:\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_121\bin;." />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Users\welcome\Downloads\ant\apache-ant-1.10.1/bin;C:\apache-maven-3.5.0/bin;C:\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_121\bin;." />
     <property name="ant.file.type.connectfour" value="file" />
     <property name="java.class.version" value="52.0" />
     <property name="java.specification.name" value="Java Platform API Specification" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="os.version" value="10.0" />
-    <property name="ant.file" value="C:\Users\welcome\Desktop\sampleproject\build.xml" />
+    <property name="ant.file" value="C:\Users\welcome\Desktop\Goldentech_ant_project\GoldenTech_ant_Project\build.xml" />
     <property name="user.home" value="C:\Users\welcome" />
     <property name="user.timezone" value="" />
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
@@ -71,37 +71,16 @@
     <property name="sun.desktop" value="windows" />
     <property name="sun.cpu.isalist" value="amd64" />
   </properties>
-  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testNoWinningPlacementBeforeGameOver" time="0.007" />
-  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testFourConnected" time="0.037">
-    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
-	at net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest.testFourConnected(Unknown Source)
-</failure>
-  </testcase>
-  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testFourConnectedHorizontally" time="0.003">
-    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
-	at net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest.testFourConnectedHorizontally(Unknown Source)
-</failure>
-  </testcase>
-  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testFourConnectedDiagonally" time="0.002">
-    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
-	at net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest.testFourConnectedDiagonally(Unknown Source)
-</failure>
-  </testcase>
+  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testNoWinningPlacementBeforeGameOver" time="0.042" />
+  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testFullColumn" time="0.001" />
+  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testNoWinner" time="0.028" />
+  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testFourConnectedHorizontally" time="0.002" />
+  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testNonExistentColumn" time="0.001" />
+  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testFourConnectedDiagonally" time="0.002" />
   <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testStandControlsTurns" time="0.001" />
-  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testDownwardDiagonalWins" time="0.003">
-    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
-	at net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest.testDownwardDiagonalWins(Unknown Source)
-</failure>
-  </testcase>
-  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testWinningPlacement" time="0.002">
-    <error type="net.sourceforge.cruisecontrol.sampleproject.connectfour.GameNotOverException">net.sourceforge.cruisecontrol.sampleproject.connectfour.GameNotOverException
-	at net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStand.getWinningPlacement(Unknown Source)
-	at net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest.testWinningPlacement(Unknown Source)
-</error>
-  </testcase>
-  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testNonExistentColumn" time="0.0" />
-  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testNoWinner" time="0.001" />
-  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testFullColumn" time="0.0" />
+  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testDownwardDiagonalWins" time="0.003" />
+  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testWinningPlacement" time="0.005" />
+  <testcase classname="net.sourceforge.cruisecontrol.sampleproject.connectfour.PlayingStandTest" name="testFourConnected" time="0.002" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
